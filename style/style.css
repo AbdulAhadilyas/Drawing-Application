@@ -5,6 +5,7 @@
     background: #313131;
     font-family: 'Bahianita', cursive;
 }
+
 .tool{
     display: flex;
     justify-content: center;
@@ -16,6 +17,7 @@ canvas{
     display: flex;
     justify-content: center;
     margin: 40px auto 0px auto;
+    cursor: url(/img/cursor.cur),auto;
 }
 input{
     margin: 0px 15px ;
@@ -25,7 +27,7 @@ input{
     height: 40px;
     border: 2px solid white;
     align-self: center;
-    cursor: pointer;
+    /* cursor: pointer; */
     color: white;
     background-color: #222;
     font-weight: bold;
