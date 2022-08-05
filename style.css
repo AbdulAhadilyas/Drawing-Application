@@ -1,0 +1,52 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background: #313131;
+    font-family: 'Bahianita', cursive;
+}
+.tool{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 30px;
+}
+canvas{
+    box-shadow: -3px 2px 9px 6px black;
+    display: flex;
+    justify-content: center;
+    margin: 40px auto 0px auto;
+}
+input{
+    margin: 0px 15px ;
+}
+.tool .button{
+    width: 100px;
+    height: 40px;
+    border: 2px solid white;
+    align-self: center;
+    cursor: pointer;
+    color: white;
+    background-color: #222;
+    font-weight: bold;
+    margin: 0px 15px ;
+    font-size: 18px;
+}
+
+.input-color-container {
+    position: relative;
+    overflow: hidden;
+    width: 40px;
+    height: 40px;
+    border: solid 2px #ddd;
+    border-radius: 40px;
+  }
+  
+  .input-color {
+    position: absolute;
+    right: -21px;
+    top: -8px;
+    width: 56px;
+    height: 56px;
+    border: none;
+  }
